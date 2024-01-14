@@ -1,0 +1,35 @@
+.chats-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #111B21;
+    margin-top: 119px;
+}
+
+.archived-div{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.archived-icon{
+    width: 20px;
+    margin-right: 33px
+}
+.archived-text{
+    color: white;
+    font-size: 19px;
+    padding-right: 258px;
+}
+.archived-number{
+    color: rgb(0, 168, 132);
+    font-size: 13px;
+    font-weight: bold;
+}
+.archived-line{
+    margin: 0px 6px 0px 83px;
+    border: 1px solid #2b3840; 
+}
+

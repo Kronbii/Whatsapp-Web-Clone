@@ -1,0 +1,101 @@
+.chats-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 80px;
+    transition: background-color 0.05s;
+    cursor: pointer;
+}
+.chat-box:hover{
+    background-color: #212c33;
+    transition: opacity 5s;
+}
+.chat-box:hover .char-hover-icon{
+    display: inline;
+    opacity: 1;
+    visibility: visible;
+}
+.chat-box:hover .chat-pinned-icon{
+    margin-right: 0px;
+}
+
+.chat-pinned-icon{
+    width: 16px;
+    margin-right: -20px;
+    transition: margin-right 0.1s;
+}
+.char-hover-icon{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s;
+    width: 21px;
+}
+
+.chat-info-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-top: 1px solid #2b3840; 
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.chat-info-top{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.message-title-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.chat-profile-div{
+    width: 52px;
+    height: 52px;
+    margin-right: 17px;
+}
+.chat-profile{
+    width: 100%;
+    border-radius: 30px;
+}
+.message-sent-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.message-sent-section{
+    display: flex;
+}
+.message-sent-icons{
+    display: flex;
+    align-items: center;
+}
+
+.double-ticks{
+    width: 19px;
+    margin-right: 4px;
+}
+
+.chat-name{
+    color: white;
+    font-size: 19px;
+}
+.chat-message{
+    color: rgb(134, 150, 160);
+    font-size: 15px;
+}
+.chat-date{
+    color: rgb(134, 150, 160);
+    font-size: 13px;
+}

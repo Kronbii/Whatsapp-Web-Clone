@@ -1,0 +1,11 @@
+.right-container{
+    background-color: red;
+    flex: 70%;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.tez-pic{
+    width: 1080px;
+}

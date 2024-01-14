@@ -1,0 +1,3 @@
+l = ['yes', 'no','hello']
+l.pop(2)
+print(l)

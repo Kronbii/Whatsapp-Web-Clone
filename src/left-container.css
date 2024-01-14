@@ -1,0 +1,101 @@
+.left-container{
+    flex: 30%;
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.left-container-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+}
+
+.upper-div{
+    display: flex;
+    align-items: center;
+    padding: 10px 28px 10px 16px;
+    background-color: #212c33;
+
+}
+.nav-tools{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.main-profile-div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-right: 123px;
+    cursor: pointer;
+}
+.main-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.nav-icon-div{
+    width: 29px;
+    height: 29px;
+}
+.nav-icon{
+    width: 100%;
+    height: 100%;
+}
+
+
+.middle-div{
+    display: flex;
+    align-items: center;
+    background-color: #111B21;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+}
+
+.search-bar-div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #202c33;
+    border-radius: 7px;
+    padding-left: 12px;
+    padding-right: 64px;
+    margin-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.search-bar{
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    background-color: #202c33;
+    border: none;
+    font-size: 16px;
+    width: 267px;
+    color: white;
+    outline: none;
+}
+.search-bar::placeholder{
+    color: #839497;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+.search-button-icon{
+    width: auto;
+    margin-right: 30px;
+}
+
+.filter-button{
+    background-color: #111B21;
+    border: none;
+    cursor: pointer;
+}
+.filter-icon{
+    width: 23px;
+    cursor: pointer;
+}
